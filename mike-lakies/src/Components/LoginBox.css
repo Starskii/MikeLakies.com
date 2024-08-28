@@ -6,20 +6,37 @@
     height: 200px;
     width: 200px;
     justify-content: center;
-    align-items: center;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
     background-color: rgba(245, 245, 255, .75);
     justify-content: space-around;
 }
 
-.EmailInput{
+.UsernameInput{
     display: flex;
     flex-direction: column;
-    flex-grow: 1 1 auto;
+    font-size: large;
+    font-weight: 700;
 }
 
 .PasswordInput{
+    font-size: large;
     display: flex;
     flex-direction: column;
-    flex-grow: 1 1 auto;
+    font-weight: 700;
+}
+
+.LoginButton{
+    background-color: #55c2da;
+    color: black;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: large;
+    transition: border 1s ease;
+    border: white 1px solid;
+    border-radius: 4px;
+}
+
+.LoginButton:hover{
+    border: black 1px solid;
 }
