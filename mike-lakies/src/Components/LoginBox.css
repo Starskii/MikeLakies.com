@@ -1,0 +1,25 @@
+.LoginBox{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 5%;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    background-color: rgba(245, 245, 255, .75);
+    justify-content: space-around;
+}
+
+.EmailInput{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1 1 auto;
+}
+
+.PasswordInput{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1 1 auto;
+}
