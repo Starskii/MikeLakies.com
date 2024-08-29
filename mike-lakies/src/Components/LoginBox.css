@@ -1,13 +1,13 @@
 .LoginBox{
     display: flex;
     flex-direction: column;
-    border-radius: 12px;
+    border-radius: 4px;
     height: 400px;
     width: 300px;
     justify-content: center;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
     background-color: rgba(245, 245, 255, .75);
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 25px;
 }
 
@@ -19,15 +19,21 @@
     gap: 5px;
 }
 
+
+
 input{
     border-radius: 4px;
     border: 1px lightgrey solid;
     padding: 10px;
-    transition: border 1s ease;
+    transition: border 2s ease;
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .15);
+    font-family: "Industrial-MikeLakies";
+    font-size: 24px;
 }
 
 input:hover{
-    border: 1px black solid;
+    border: 2px black solid;
 }
 
 .PasswordInput{
@@ -45,11 +51,13 @@ input:hover{
     padding-bottom: 3px;
     border: 1px darkgrey solid;
     border-radius: 4px;
-    transition: border 1s ease;
+    transition: border 1s ease, background 1s ease;
     font-family: 'Industrial-MikeLakies';
     font-size: 32px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .15);
 }
 
 .LoginButton:hover{
     border: black 1px solid;
+    background: lightgrey;
 }
